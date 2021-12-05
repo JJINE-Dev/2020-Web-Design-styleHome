@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내집꾸미기</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="resources/fontawesome/css/font-awesome.css">
+</head>
+<body>        
+    <!-- 서브 헤더-->
+    <div class="etc-header p-3 d-flex align-items-center justify-content-end">
+        <a href="#">회원가입</a>
+        <a href="#">로그인</a>            
+    </div>
+    
+    <!-- 메인 헤더 -->
+    <header>
+        <div class="main_480 main_480_menu" id="main_480_menu">
+            <i class="fa fa-bars main_480_menu"></i>
+        </div>
+        <div id="logo" class="mt-4">
+            <img src="./resources/image/logo.png" title="logo" alt="logo">
+        </div>
+        
+        <!-- 네비게이션 -->
+        <nav >
+            <ul>
+                <li><a class="py-2" href="#" >홈</a></li>
+                <li><a class="py-2" href="#" >온라인 집들이</a></li>
+                <li><a class="py-2" href="#" >스토어</a></li>
+                <li><a class="py-2" href="#" >전문가</a></li>
+                <li><a class="py-2" href="#" >시공 견적</a></li>
+                <li><i class="fa fa-shopping-cart"></i></li>
+                <li><i class="fa fa-search"></i></li> 
+                <li><i class="fa fa-user"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 비주얼 -->
+    <div id="visual-c">
+        <input type="radio" name="slide" id="slide-1" hidden checked>
+        <input type="radio" name="slide" id="slide-2" hidden>
+        <input type="radio" name="slide" id="slide-3" hidden>
+        <input type="radio" name="slide" id="slide-4" hidden>
+        
+        <!-- 슬라이드 -->        
+        <div id="visual">
+            <div class="container">
+                <span class="span2">자신의 집을 새롭게 꾸며보세요!</span>
+                <div class="visual-text">
+                    <img src="./resources/image/main.png" alt="">
+                </div>
+                <div class="visual-text-o">
+                    <div class="stroke1"></div>
+                    <div class="stroke2"></div>
+                    <div class="stroke3"></div>
+                    <div class="stroke4"></div>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./resources/image/slide1.jpg" alt="슬라이드 이미지" title="슬라이드 이미지">
+                <img src="./resources/image/slide2.jpg" alt="슬라이드 이미지" title="슬라이드 이미지">
+                <img src="./resources/image/slide3.jpg" alt="슬라이드 이미지" title="슬라이드 이미지">
+            </div>
+            <div class="link">
+                더 자세히 알아보기
+            </div>
+            <div class="button_btn">
+                <button class="lt-btn">&lt;</button>
+                <button class="rt-btn ml-5">&gt;</button> 
+            </div>
+        </div>
+    </div>
+
+    <!-- 집들이 영역 -->
+    <section id="online">
+        <div class="container">
+            <div class="row">
+                <div class="online online-bg col-sm-5">
+                    <div class="container online-container">
+
+                        <div class="box">
+                            <span class="white">"</span>
+                        </div>
+                        <div class="main-text mt-2">
+                            <p class="mt-3"><span class="red">Online</span><br> <b>housewarming </b></p>
+                        </div>
+                        <hr width=200px; height=10px;>
+                        <div class="sub-text mt-4">
+                            <p>사용자들의 <span>후기</span>를 직접 볼 수 있는 기회, 더 자세한 내용은 사진을 올려보세요! 사진 전 후를 비교하실 수 있습니다. 확 달라진 인테리어 디자인, 지금 당장 체험해보세요.</p>
+                        </div>
+                        <div class="title-box d-flex">
+                            <div class="item ml-5">
+                                <i class="fa fa-user"></i>
+                                <br>사람들의 의견을
+                                <br>손쉽게 볼 수있는
+                                <br>영역을 펼쳐보세요
+                            </div>
+                            <div class="item ml-5">
+                                <i class="fa fa-heart"></i>
+                                <br>계속 보고 싶은 인테리어,
+                                <br>독립하면 꼭 하고 싶은<br> 인테리어,
+                                인테리어 <br> 디자인을 바로 확인<br> 하세요!
+                            </div>
+                        </div>
+                        <div class="read-more d-flex align-items-center justify-content-center">
+                            <span>더보기</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 집들이 영역 2 -->
+                <div class="online online-bg2 col-sm-offset-5 col-sm-7">
+                    <div class="image-card row">
+                        <div class="item col-sm-6 mb-5">
+                            <div class="img">
+                                <img class="fit-cover" src="./resources/image/1_before.jpg" alt="before_사진" title="before_사진">
+                                <img class="fit-cover" src="./resources/image/1_after.jpg" alt="after_사진" title="after_사진">
+                            </div>
+                            <div class="image-box ">
+                                <p class="star">
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star-o"></i></span>
+                                </p>
+                                <p class="main">라이언 집순이</p>
+                                <p>user1</p>
+                            </div>
+                        </div>
+                        <div class="item col-sm-6 mb-5">
+                            <div class="img">
+                                <img class="fit-cover" src="./resources/image/2_before.jpg" alt="before_사진" title="before_사진">
+                                <img class="fit-cover" src="./resources/image/2_after.jpg" alt="after_사진" title="after_사진">
+                            </div>
+                            <div class="image-box">
+                                <p class="star">
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star-o"></i></span>
+                                    <span><i class="star fa fa-star-o"></i></span>
+                                </p>
+                                <p class="main">새 아파트 인테리어</p>
+                                <p>user2</p>
+                            </div>
+                        </div>
+                        <div class="item col-sm-6 mt-1 mb-5">
+                            <div class="img">
+                                <img class="fit-cover" src="./resources/image/3_before.jpg" alt="before_사진" title="before_사진">
+                                <img class="fit-cover" src="./resources/image/3_after.jpg" alt="after_사진" title="after_사진">
+                            </div>
+                            <div class="image-box">
+                                <p class="star">
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                </p>
+                                <p class="main">우아한 화장실</p>
+                                <p>user3</p>
+                            </div>
+                        </div>
+                        <div class="item col-sm-6 mb-5">
+                            <div class="img">
+                                <img class="fit-cover" src="./resources/image/4_before.jpg" alt="before_사진" title="before_사진">
+                                <img class="fit-cover" src="./resources/image/4_after.jpg" alt="after_사진" title="after_사진">
+                            </div>
+                            <div class="image-box">
+                                <p class="star">
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star"></i></span>
+                                    <span><i class="star fa fa-star-o"></i></span>
+                                    <span><i class="star fa fa-star-o"></i></span>
+                                    <span><i class="star fa fa-star-o"></i></span>
+                                </p>
+                                <p class="main">나만의 지하공간</p>
+                                <p>user4</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section id="online">
+
+    <!-- 전문가 영역 -->
+    <section id="expert">
+        <div class="container pt-5">
+            <div class="ㅎㅎ"></div>
+            <div class="item special-item mt-1">
+                <div class="inner">
+                    <div class="img">
+                        <img src="./resources/image/specialist1.jpg" alt="전문가1" title="전문가1">
+                    </div>
+                    <div class="back">
+                        <div class="w-100 h-100 d-flex flex-column-reverse align-items-center pb-5">
+                            <div class="d-flex flex-column text-center align-items-center">
+                                <span class="fx-2">전문가1</span>
+                                <small class="text-muted mt-5 mb-5">specialist1</small>
+                                <button class="black-btn px-4">자세히보기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item special-item mt-3">
+                <div class="inner">
+                    <div class="img">
+                        <img src="./resources/image/specialist2.jpg" alt="전문가2" title="전문가2">
+                    </div>
+                    <div class="back">
+                        <div class="w-100 h-100 d-flex flex-column-reverse align-items-center pb-5">
+                            <div class="d-flex flex-column text-center align-items-center">
+                                <span class="fx-2">전문가2</span>
+                                <small class="text-muted mt-5 mb-5">specialist2</small>
+                                <button class="black-btn px-4">자세히보기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  <div class="item special-item mt-5">
+                
+            </div>
+            <div class="item special-item mt-5">
+                
+            </div>
+            <div class="item special-item mt-4">
+                <div class="inner">
+                    <div class="img">
+                        <img src="./resources/image/specialist3.jpg" alt="전문가3" title="전문가3">
+                    </div>
+                    <div class="back">
+                        <div class="w-100 h-100 d-flex flex-column-reverse align-items-center pb-5">
+                            <div class="d-flex flex-column text-center align-items-center">
+                                <span class="fx-2">전문가3</span>
+                                <small class="text-muted mt-5 mb-5">specialist3</small>
+                                <button class="black-btn px-4">자세히보기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item special-item mt-5">
+                <div class="inner">
+                    <div class="img">
+                        <img src="./resources/image/specialist4.jpg" alt="전문가4" title="전문가3">
+                    </div>
+                    <div class="back">
+                        <div class="w-100 h-100 d-flex flex-column-reverse align-items-center pb-5">
+                            <div class="d-flex flex-column text-center align-items-center">
+                                <span class="fx-2">전문가4</span>
+                                <small class="text-muted mt-5 mb-5">specialist4</small>
+                                <button class="black-btn px-4">자세히보기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5 read-more d-flex align-items-center justify-content-center">
+            <span>더보기</span>
+        </div>
+    </section>
+    <!-- 리뷰 영역 -->
+    <section id="review">
+        <div class="container p-5">
+            <div class="review-header text-center">
+                <div class="box">
+                    <span class="white">"</span>
+                </div>
+                <div class="main-text mt-3">
+                    <p><span class="red">Specialist</span><br><b>review</b></p>
+                </div>
+                <hr width=200px; height=10px;>
+                <div class="sub-text mt-4">
+                    <p>인테리어를 맡긴 <span>사람</span>들의 포스팅을 볼 수 있는 블로그 형식에 알맞게 제작한<br>
+                    간편한 레이아웃, 후기를 보고 인테리어를 맡길 것인지 확인해보세요!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="review-box left-box col-sm-7 col-md-5 mb-2">
+                    <div class="img-num"><span><b>01</b><hr class="box-stroke" width="90px"></span></div>
+                    <div class="img">
+                        <img src="./resources/image/review1.jpg" alt="review1" title="review1">
+                    </div>         <p class="star">
+                        <span><i class="star fa fa-star"></i></span>
+                        <span><i class="star fa fa-star"></i></span>
+                        <span><i class="star fa fa-star"></i></span>
+                        <span><i class="star fa fa-star"></i></span>
+                        <span><i class="star fa fa-star-o"></i></span>
+                    </p>
+                    <div class="img-box d-flex">
+                        <span>
+                            <div class="title-sj">원하던 아이디언맨 컨셉으로 너무 잘 꾸 <br>며 주셨습니다!</div>
+                            <hr width="400px"><br>  
+                            <div class="re-img">
+                                <img src="./resources/image/specialist2.jpg" alt="">
+                            </div>
+                            <span class="ep-2 ml-2">전문가2</span>
+                            <br>
+                            <i class="fa fa-key mt-3 ml-3">specialist2</i>
+                            <i class="fa fa-user mt-3 ml-3">박재현(park)</i>
+                            <i class="fa fa-money mt-3 ml-3">3,200,000원</i>
+                        </span>
+                    </div>
+                </div>
+                <div class="review-box review-box2 col-sm-7 col-md-5 mb-2">
+                    <div class="img-num"><span><b>02</b><hr class="box-stroke" width="90px"></span></div>
+                    <div class="img">
+                        <img src="./resources/image/review2.jpg" alt="" title="">
+                    </div>
+                    <p class="star">
+                        <span><i class="star fa fa-star"></i></span>
+                        <span><i class="star fa fa-star"></i></span>
+                        <span><i class="star fa fa-star"></i></span>
+                        <span><i class="star fa fa-star"></i></span>
+                        <span><i class="star fa fa-star-o"></i></span>
+                    </p>
+                    <div class="img-box d-flex">
+                        <span>
+                            <div class="title-sj">요구사항대로 부드러운 느낌을 잘 살려<br> 주셨습니다.</div>
+                            <hr width="400px"><br>
+                            <div class="re-img">
+                                <img src="./resources/image/specialist4.jpg" alt="">
+                            </div>
+                            <span class="ep-2 ml-2">전문가4</span>
+                            <br>
+                            <i class="fa fa-key mt-3 ml-3">specialist4</i>
+                            <i class="fa fa-user mt-3 ml-3">김정수(kim)</i>
+                            <i class="fa fa-money mt-3 ml-3">5,500,000원</i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="readMore read-more d-flex align-items-center justify-content-center"><span>더보기</span></div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="d-flex justify-content-center align-items-center">
+        Copyright (C) 2020 by MyHome Inc All Rights Reserved.
+    </footer>
+</body>
+</html>

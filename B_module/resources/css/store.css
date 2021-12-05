@@ -1,0 +1,148 @@
+.str {
+    width:100%;
+    border-top: 1px solid #ddd;
+}
+.drop-zone {
+    width: 200px;
+    height: 200px;
+    background: #ddd;
+    position: fixed;
+    right:1%;
+    top: 60%;
+    border-radius: 20px;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-zone p {text-align: center;}
+.drop-zone i {font-size: 30px;}
+.drop-zone:hover {background: #b21818; color: #fff; cursor: pointer;}
+.blue {
+    background: #a0acb2;
+}
+.cart-table {
+    border-top: 2px solid #555;
+    text-align: center;
+    width: 100%;
+}
+
+tbody td {
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.sell-info {text-align: center;}
+
+tbody img {width: 50px; height: 50px; background: #000;}
+tfoot {
+    text-align: right;
+    color: #888;
+    border-top: 1px solid #b21818;
+    width: 100%;
+    height: 300px;
+    background: #f2f2f2;
+}
+#pr-box {
+    padding: 15px 10px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.field-box {
+    height: 100px;
+}
+.box-left {
+    float: left;
+}
+
+.box-right {
+    float: right;
+}
+
+.list-nav {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list-nav p {margin-bottom: 0; margin-right: 20px} 
+
+#search-box {display: flex}
+.search-group input {padding: 10px 0 10px 20px; outline: none; background: #eee; border-radius: 20px; border: 1px solid transparent}
+#search-box button {margin-left: 10px; border-radius: 30px; border: 1px solid #b21818; background: #b21818;} 
+
+#list {
+    margin-top: 100px;
+}
+.list-lt {
+    float: left;
+}
+
+.list-lt .category, .list-lt .color{letter-spacing: 1.5px;}
+
+.list-rg {
+    float: right;
+    width: 950px;
+}
+
+.list-container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    height: 1000px;
+}
+
+/* .list-box {margin-top: 10px;} */
+.list-box .img { width: 300px; height: 350px; background: #000;}
+.list-box .img img {width: 100%; height: 100%; object-fit: cover;}
+.list-box .text-box {margin-top: 20px;}
+.text-box .brand{text-decoration: underline; color: #555}
+.text-box .brand-title {font-size: 30px; font-weight: bold;}
+mark {background: #ffbf43;}
+
+#popup, #result {
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 1000;
+}
+
+.inner {
+    background-color: #fff;
+    width:50%;
+    padding:80px 20px;
+    z-index: 5000;
+    position: fixed;
+}
+
+.form-control {
+    background: #f2f2f2;
+}
+
+.from-group button {
+    color: f2f2f2;
+}
+
+.orange {
+    color: #b21818
+}
+#del-btn {
+    border-radius: 10px; background: #eee; padding: 10px; cursor: pointer;
+}
+
+.cart-list {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+}

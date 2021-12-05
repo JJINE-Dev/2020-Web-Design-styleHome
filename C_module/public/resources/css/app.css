@@ -1,0 +1,79 @@
+.alert {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+    z-index: 20;
+    background: #007bff;
+    animation: alert 4s forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert.danger {
+    background: #ff3e7f;
+}
+
+@keyframes alert {
+    0% { top: 30px; opacity: 0; }
+    10% { top: 50px; opacity: 1; }
+    90% { top: 50px; opacity: 1; }
+    100% { top: 70px; opacity: 0; }
+}
+
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    z-index: -1;
+}
+
+.popup.active {
+    opacity: 1;
+    z-index: 10000000005;
+}
+
+.popup > div {
+    background-color: white;
+    padding: 200px;
+}
+
+.popup .write form {
+    display: flex;
+    flex-direction: column;
+}
+
+/*house*/
+
+.houses {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.h1 {
+    font-weight: bold;
+}
+
+/*spe*/
+
+.specia .img {
+    width: 250px;
+    height: 250px;
+}
+
+.specia .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
